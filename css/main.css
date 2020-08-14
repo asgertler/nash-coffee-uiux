@@ -1,0 +1,28 @@
+@import url("shop.css");
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    letter-spacing: .1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+
+footer {
+    background-color: aquamarine;
+}
